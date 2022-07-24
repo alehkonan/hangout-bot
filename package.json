@@ -1,0 +1,32 @@
+{
+  "name": "hangout-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/bot.js",
+    "dev": "nodemon ./src/bot.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alehkonan/hangout-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alehkonan/hangout-bot/issues"
+  },
+  "homepage": "https://github.com/alehkonan/hangout-bot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "telegraf": "^4.8.5"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
